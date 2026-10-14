@@ -1,0 +1,6 @@
+{
+  "name": "UrbanThread | Streetwear Editorial & Style Journal",
+  "description": "A contemporary streetwear and fashion editorial publication featuring trend breakdowns, outfit curation, sneaker guides, and styling tips.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

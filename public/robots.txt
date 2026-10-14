@@ -1,0 +1,11 @@
+# Robots.txt for UrbanThread Fashion & Streetwear Journal
+# Allow all major search engines to crawl public pages
+
+User-agent: *
+Allow: /
+
+# Host
+Host: https://urbanthread-fashion.vercel.app
+
+# XML Sitemap index
+Sitemap: https://urbanthread-fashion.vercel.app/sitemap.xml
