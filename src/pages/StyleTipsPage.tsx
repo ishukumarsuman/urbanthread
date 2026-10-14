@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SEOHead } from '../components/SEOHead';
-import { IMAGES } from '../assets/images';
+import { IMAGES, BACKUP_IMAGES } from '../assets/images';
 import { STYLE_PILLARS } from '../data/fashionContent';
 import { ArrowRight, Sparkles, Check, Sliders, Layers, Palette, Scissors, ShieldAlert } from 'lucide-react';
 
@@ -79,7 +79,7 @@ export const StyleTipsPage: React.FC = () => {
             <div className="lg:col-span-5">
               <img
                 src={imgSrc}
-                onError={() => setImgSrc(IMAGES.fallback)}
+                onError={() => setImgSrc(BACKUP_IMAGES.styleTips)}
                 alt="Close-up macro detail of heavy waffle knit sweater, grey wool overcoat, and brushed silver necklace"
                 referrerPolicy="no-referrer"
                 className="w-full aspect-[4/3] object-cover border border-neutral-800"

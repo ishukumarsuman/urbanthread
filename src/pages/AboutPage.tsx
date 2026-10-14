@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SEOHead } from '../components/SEOHead';
-import { IMAGES } from '../assets/images';
+import { IMAGES, BACKUP_IMAGES } from '../assets/images';
 import { BASE_CANONICAL_URL } from '../config/seo';
 import { BookOpen, CheckCircle2, FileCode, Compass, Share2, Layers, Cpu, ArrowRight } from 'lucide-react';
 
@@ -82,7 +82,7 @@ export const AboutPage: React.FC = () => {
               <div className="border border-neutral-800 bg-[#121212] overflow-hidden">
                 <img
                   src={imgSrc}
-                  onError={() => setImgSrc(IMAGES.fallback)}
+                  onError={() => setImgSrc(BACKUP_IMAGES.about)}
                   alt="UrbanThread editorial street style curation showcase in city architectural context"
                   referrerPolicy="no-referrer"
                   className="w-full aspect-[4/3] object-cover"

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SEOHead } from '../components/SEOHead';
-import { IMAGES } from '../assets/images';
+import { IMAGES, BACKUP_IMAGES } from '../assets/images';
 import { TRENDS_DATA } from '../data/fashionContent';
 import { Check, X, ArrowRight, Sparkles, Filter, SlidersHorizontal } from 'lucide-react';
 
@@ -50,7 +50,7 @@ export const StreetwearTrendsPage: React.FC = () => {
             <div className="lg:col-span-5">
               <img
                 src={imgSrc}
-                onError={() => setImgSrc(IMAGES.fallback)}
+                onError={() => setImgSrc(BACKUP_IMAGES.trends)}
                 alt="Editorial street style model wearing relaxed oversized outerwear and wide-leg trousers"
                 referrerPolicy="no-referrer"
                 className="w-full aspect-[4/3] object-cover border border-neutral-800"

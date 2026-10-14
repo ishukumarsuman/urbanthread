@@ -41,16 +41,17 @@ export const SEOHead: React.FC<SEOHeadProps> = ({ customSEO }) => {
     setMetaTag('property', 'og:url', seoConfig.canonicalUrl);
     setMetaTag('property', 'og:type', seoConfig.ogType || 'website');
     if (seoConfig.ogImage) {
-      setMetaTag('property', 'og:image', seoConfig.ogImage);
+      const fullImage = seoConfig.ogImage.startsWith('http')
+        ? seoConfig.ogImage
+        : `${seoConfig.canonicalUrl.replace(/\/$/, '')}${seoConfig.ogImage.startsWith('/') ? '' : '/'}${seoConfig.ogImage}`;
+      setMetaTag('property', 'og:image', fullImage);
+      setMetaTag('name', 'twitter:image', fullImage);
     }
 
     // 4. Twitter Card
     setMetaTag('name', 'twitter:card', 'summary_large_image');
     setMetaTag('name', 'twitter:title', seoConfig.twitterTitle || seoConfig.title);
     setMetaTag('name', 'twitter:description', seoConfig.twitterDescription || seoConfig.metaDescription);
-    if (seoConfig.ogImage) {
-      setMetaTag('name', 'twitter:image', seoConfig.ogImage);
-    }
 
     // 5. Canonical Link Tag
     let canonicalTag = document.querySelector('link[rel="canonical"]');

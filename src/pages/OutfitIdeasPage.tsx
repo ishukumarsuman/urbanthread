@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SEOHead } from '../components/SEOHead';
-import { IMAGES } from '../assets/images';
+import { IMAGES, BACKUP_IMAGES } from '../assets/images';
 import { OUTFITS_DATA } from '../data/fashionContent';
 import { ArrowRight, Layers, Sparkles, SlidersHorizontal, Check, Info } from 'lucide-react';
 
@@ -56,7 +56,7 @@ export const OutfitIdeasPage: React.FC = () => {
             <div className="lg:col-span-5">
               <img
                 src={imgSrc}
-                onError={() => setImgSrc(IMAGES.fallback)}
+                onError={() => setImgSrc(BACKUP_IMAGES.outfits)}
                 alt="Street style model demonstrating smart casual streetwear layering with overcoat, crewneck, and clean sneakers"
                 referrerPolicy="no-referrer"
                 className="w-full aspect-[4/3] object-cover border border-neutral-800"

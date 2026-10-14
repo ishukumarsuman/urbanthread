@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SEOHead } from '../components/SEOHead';
-import { IMAGES } from '../assets/images';
+import { IMAGES, BACKUP_IMAGES } from '../assets/images';
 import { TRENDS_DATA, OUTFITS_DATA, SNEAKERS_DATA, STYLE_PILLARS } from '../data/fashionContent';
 import { ArrowRight, Compass, Layers, Footprints, BookOpen, Sparkles, CheckCircle2 } from 'lucide-react';
 
@@ -75,7 +75,7 @@ export const HomePage: React.FC = () => {
               <div className="relative border border-neutral-800 bg-[#141414] overflow-hidden group">
                 <img
                   src={heroImgSrc}
-                  onError={() => setHeroImgSrc(IMAGES.fallback)}
+                  onError={() => setHeroImgSrc(BACKUP_IMAGES.hero)}
                   alt="Young models showcasing contemporary layered minimalist streetwear in an urban concrete environment"
                   referrerPolicy="no-referrer"
                   className="w-full aspect-[4/3] lg:aspect-[3/4] object-cover transition-transform duration-700 group-hover:scale-105"
@@ -247,7 +247,7 @@ export const HomePage: React.FC = () => {
             <div className="lg:col-span-5">
               <img
                 src={IMAGES.trends}
-                onError={(e) => { (e.target as HTMLImageElement).src = IMAGES.fallback; }}
+                onError={(e) => { (e.target as HTMLImageElement).src = BACKUP_IMAGES.trends; }}
                 alt="Editorial model wearing oversized relaxed tailoring jacket and wide trousers in urban environment"
                 referrerPolicy="no-referrer"
                 className="w-full aspect-[4/3] object-cover border border-neutral-800"
@@ -368,7 +368,7 @@ export const HomePage: React.FC = () => {
               <div>
                 <img
                   src={IMAGES.sneakers}
-                  onError={(e) => { (e.target as HTMLImageElement).src = IMAGES.fallback; }}
+                  onError={(e) => { (e.target as HTMLImageElement).src = BACKUP_IMAGES.sneakers; }}
                   alt="Curated retro runner and minimalist court sneakers on concrete architectural surface"
                   referrerPolicy="no-referrer"
                   className="w-full aspect-[16/9] object-cover border border-neutral-800 mb-6"
@@ -399,7 +399,7 @@ export const HomePage: React.FC = () => {
               <div>
                 <img
                   src={IMAGES.styleTips}
-                  onError={(e) => { (e.target as HTMLImageElement).src = IMAGES.fallback; }}
+                  onError={(e) => { (e.target as HTMLImageElement).src = BACKUP_IMAGES.styleTips; }}
                   alt="Detailed macro view of high-texture fabric layering, wool overcoat, waffle knit sweater, and silver jewelry"
                   referrerPolicy="no-referrer"
                   className="w-full aspect-[16/9] object-cover border border-neutral-800 mb-6"

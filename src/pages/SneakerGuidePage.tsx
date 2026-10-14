@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SEOHead } from '../components/SEOHead';
-import { IMAGES } from '../assets/images';
+import { IMAGES, BACKUP_IMAGES } from '../assets/images';
 import { SNEAKERS_DATA } from '../data/fashionContent';
 import { ArrowRight, CheckCircle2, ShieldCheck, Compass, HelpCircle } from 'lucide-react';
 
@@ -47,7 +47,7 @@ export const SneakerGuidePage: React.FC = () => {
             <div className="lg:col-span-5">
               <img
                 src={imgSrc}
-                onError={() => setImgSrc(IMAGES.fallback)}
+                onError={() => setImgSrc(BACKUP_IMAGES.sneakers)}
                 alt="Curated retro runner and designer sneakers on concrete slab in studio lighting"
                 referrerPolicy="no-referrer"
                 className="w-full aspect-[4/3] object-cover border border-neutral-800"
