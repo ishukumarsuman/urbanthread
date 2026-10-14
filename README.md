@@ -42,10 +42,10 @@ Deploying UrbanThread takes less than 3 minutes. Follow these simple steps:
    git add .
    git commit -m "Initial commit: UrbanThread SEO fashion publication"
    ```
-3. Create a new repository on [GitHub](https://github.com/new) (e.g., named `urbanthread-fashion`).
+3. Create a new repository on [GitHub](https://github.com/new) (e.g., named `urbanthread-pied`).
 4. Link your local repository and push:
    ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/urbanthread-fashion.git
+   git remote add origin https://github.com/YOUR_USERNAME/urbanthread-pied.git
    git branch -M main
    git push -u origin main
    ```
@@ -53,7 +53,7 @@ Deploying UrbanThread takes less than 3 minutes. Follow these simple steps:
 ### Step 2: Deploy to Vercel
 1. Go to [Vercel](https://vercel.com/) and sign in with your GitHub account.
 2. Click **"Add New..."** → **"Project"**.
-3. Select your `urbanthread-fashion` repository and click **"Import"**.
+3. Select your `urbanthread-pied` repository and click **"Import"**.
 4. Vercel automatically detects **Vite**:
    - **Framework Preset**: Vite
    - **Root Directory**: `./`

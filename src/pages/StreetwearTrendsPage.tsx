@@ -58,13 +58,13 @@ export const StreetwearTrendsPage: React.FC = () => {
             </div>
             <div className="lg:col-span-7 space-y-4">
               <span className="text-xs uppercase tracking-widest text-neutral-400 font-semibold block">
-                Editorial Commentary
+                Editorial Commentary · Q&A
               </span>
               <h2 className="text-2xl font-display font-bold text-white">
-                The Shift from Cosmetic Logos to Textile Substance
+                Why is modern streetwear shifting from logos to textile craftsmanship?
               </h2>
               <p className="text-sm text-neutral-300 leading-relaxed">
-                The modern streetwear enthusiast prioritizes the origin of Japanese selvedge denim, the waterproof breathability of technical membranes, and the gentle drape of brushed wool over conspicuous chest branding. Today’s sophistication lies in tactile craftsmanship.
+                Modern streetwear is shifting from loud graphics to textile craftsmanship because contemporary style emphasizes silhouette, longevity, and material substance over transient branding. Rather than relying on conspicuous chest logos, today’s wardrobe focuses on the provenance and drape of authentic fabrics—such as Japanese selvedge denim, heavy unlined wools, and waterproof breathable technical membranes—which create enduring, tactile sophistication.
               </p>
               <div className="flex items-center gap-4 text-xs text-neutral-400 pt-2 border-t border-neutral-800">
                 <span>Curated by UrbanThread Editors</span>
@@ -110,6 +110,14 @@ export const StreetwearTrendsPage: React.FC = () => {
 
           {/* Trend Deep Dives */}
           <div className="space-y-12">
+            <div className="border-b border-neutral-800 pb-4">
+              <span className="text-xs uppercase tracking-widest text-neutral-400 font-semibold block mb-1">
+                Curated Dossier
+              </span>
+              <h2 className="text-2xl font-display font-bold text-white">
+                Key Streetwear Movements & Silhouette Breakdown
+              </h2>
+            </div>
             {filteredTrends.map((trend, index) => (
               <article
                 key={trend.id}

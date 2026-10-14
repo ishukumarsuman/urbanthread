@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://urbanthread-fashion.vercel.app/</loc>
+    <loc>https://urbanthread-pied.vercel.app/</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <!-- Streetwear Trends -->
   <url>
-    <loc>https://urbanthread-fashion.vercel.app/streetwear-trends</loc>
+    <loc>https://urbanthread-pied.vercel.app/streetwear-trends</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Outfit Ideas -->
   <url>
-    <loc>https://urbanthread-fashion.vercel.app/outfit-ideas</loc>
+    <loc>https://urbanthread-pied.vercel.app/outfit-ideas</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Sneaker Guide -->
   <url>
-    <loc>https://urbanthread-fashion.vercel.app/sneaker-guide</loc>
+    <loc>https://urbanthread-pied.vercel.app/sneaker-guide</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Style Tips -->
   <url>
-    <loc>https://urbanthread-fashion.vercel.app/style-tips</loc>
+    <loc>https://urbanthread-pied.vercel.app/style-tips</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- About Us -->
   <url>
-    <loc>https://urbanthread-fashion.vercel.app/about</loc>
+    <loc>https://urbanthread-pied.vercel.app/about</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

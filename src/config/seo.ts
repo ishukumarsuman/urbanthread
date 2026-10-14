@@ -6,7 +6,7 @@ import { IMAGES } from '../assets/images';
  * Placeholder domain for Vercel deployment as specified in project brief.
  * Replace with your custom production domain if mapped on Vercel.
  */
-export const BASE_CANONICAL_URL = 'https://urbanthread-fashion.vercel.app';
+export const BASE_CANONICAL_URL = 'https://urbanthread-pied.vercel.app';
 
 export const SEO_DATA: Record<string, PageSEO> = {
   '/': {

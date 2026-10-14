@@ -55,13 +55,13 @@ export const SneakerGuidePage: React.FC = () => {
             </div>
             <div className="lg:col-span-7 space-y-4">
               <span className="text-xs uppercase tracking-widest text-neutral-400 font-semibold block">
-                The Grounding Rule
+                The Grounding Rule · Q&A
               </span>
               <h2 className="text-2xl font-display font-bold text-white">
-                Why the Pant Break Dictates Your Sneaker Choice
+                Why does the trouser pant break dictate your sneaker silhouette choice?
               </h2>
               <p className="text-sm text-neutral-300 leading-relaxed">
-                Even the most expensive designer sneakers look clumsy if paired with an improper trouser break. A chunky retro runner with a sculpted heel demands a wide leg hem that pools gently over the collar, whereas a sleek minimalist leather court shoe requires a clean, zero-break crop to preserve its low-profile silhouette.
+                The trouser pant break dictates your sneaker silhouette choice because the hemline establishes the visual balance between leg proportion and footwear volume. A chunky retro runner with a sculpted heel demands a wide leg hem with a slight or puddle break so the fabric drapes naturally over the midsole, whereas a sleek minimalist leather court shoe requires a clean, zero-break crop to preserve its low-profile geometry.
               </p>
               <div className="flex items-center gap-4 text-xs text-neutral-400 pt-2 border-t border-neutral-800">
                 <span>Versatility Rating Scale (1-10)</span>
@@ -73,6 +73,14 @@ export const SneakerGuidePage: React.FC = () => {
 
           {/* Silhouette Selector Strip */}
           <div className="mb-8">
+            <div className="border-b border-neutral-800 pb-3 mb-4">
+              <span className="text-xs uppercase tracking-widest text-neutral-400 font-semibold block mb-1">
+                Directory Matrix
+              </span>
+              <h2 className="text-2xl font-display font-bold text-white">
+                Sneaker Silhouette Anatomy & Curated Profiles
+              </h2>
+            </div>
             <span className="text-xs uppercase tracking-widest text-neutral-400 font-semibold block mb-3">
               Select Sneaker Silhouette to Inspect:
             </span>

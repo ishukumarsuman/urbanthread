@@ -361,6 +361,14 @@ export const HomePage: React.FC = () => {
       {/* Sneaker & Style Teaser 2-Column Split */}
       <section className="py-16 border-b border-neutral-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-2xl mb-10">
+            <span className="text-xs uppercase tracking-widest text-neutral-400 font-semibold block mb-2">
+              Deep-Dive Editorial
+            </span>
+            <h2 className="text-2xl sm:text-3xl font-display font-bold text-white">
+              Editorial Field Guides & Wardrobe Pillars
+            </h2>
+          </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             
             {/* Sneaker Teaser */}

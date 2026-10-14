@@ -202,7 +202,7 @@ export const OutfitIdeasPage: React.FC = () => {
                       to="/sneaker-guide"
                       className="text-xs font-medium text-neutral-400 hover:text-white underline"
                     >
-                      Check footwear
+                      Explore Sneaker Pairing Guide
                     </Link>
                   </div>
                 </article>

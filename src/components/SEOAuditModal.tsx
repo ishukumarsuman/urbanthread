@@ -204,7 +204,7 @@ export const SEOAuditModal: React.FC<SEOAuditModalProps> = ({ isOpen, onClose })
                 </span>
                 <div className="p-3 bg-white text-[#202124] rounded-sm font-sans space-y-1">
                   <div className="text-[11px] text-[#4d5156] flex items-center gap-1.5">
-                    <span>urbanthread-fashion.vercel.app</span>
+                    <span>urbanthread-pied.vercel.app</span>
                     <span>›</span>
                     <span>{seo.path === '/' ? 'home' : seo.path.replace('/', '')}</span>
                   </div>

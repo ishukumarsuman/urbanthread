@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://urbanthread-fashion.vercel.app
+Host: https://urbanthread-pied.vercel.app
 
 # XML Sitemap index
-Sitemap: https://urbanthread-fashion.vercel.app/sitemap.xml
+Sitemap: https://urbanthread-pied.vercel.app/sitemap.xml
