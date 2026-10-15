@@ -26,11 +26,11 @@ export const AboutPage: React.FC = () => {
 
             {/* Strict Unique H1 */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-extrabold text-white tracking-tight leading-tight">
-              About UrbanThread: Editorial Manifesto & SEO Architecture
+              The UrbanThread Brand and Fashion Journal: Manifesto & SEO
             </h1>
 
             <p className="text-base sm:text-lg text-neutral-300 leading-relaxed">
-              UrbanThread is an independent fashion and streetwear journal created to bridge runway aesthetics with daily student utility, while serving as a rigorous academic case study in modern on-page and technical SEO.
+              The UrbanThread brand and fashion journal is an independent publication created to bridge runway aesthetics with daily student utility, while serving as a rigorous academic case study in modern on-page and technical SEO.
             </p>
           </div>
         </div>
@@ -52,7 +52,7 @@ export const AboutPage: React.FC = () => {
                 Contemporary street style was born out of skate culture, hip-hop, and DIY subcultures. In recent years, corporate fast fashion and artificial scarcity transformed it into an overwhelming cycle of disposable micro-trends and branded plastic.
               </p>
               <p className="text-sm sm:text-base text-neutral-300 leading-relaxed">
-                UrbanThread exists to restore intentionality. We treat streetwear as wearable architecture: analyzing heavy cotton weights, drop-shoulder geometry, waterproof membrane utility, and sustainable capsule styling that lasts for years rather than weekends.
+                The UrbanThread brand and fashion journal exists to restore intentionality. We treat streetwear as wearable architecture: analyzing heavy cotton weights, drop-shoulder geometry, waterproof membrane utility, and sustainable capsule styling that lasts for years rather than weekends.
               </p>
 
               {/* Target Audience Grid */}

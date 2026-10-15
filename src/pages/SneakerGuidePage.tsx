@@ -29,11 +29,11 @@ export const SneakerGuidePage: React.FC = () => {
 
             {/* Strict Unique H1 */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-extrabold text-white tracking-tight leading-tight">
-              The Streetwear Footwear & Sneaker Silhouette Guide
+              The Streetwear Sneaker Styling Guide & Silhouette Matrix
             </h1>
 
             <p className="text-base sm:text-lg text-neutral-300 leading-relaxed">
-              Footwear acts as the visual anchor of every streetwear silhouette. Explore our definitive guide to key sneaker categories, essential buying considerations, and pant break pairing formulas.
+              Footwear acts as the visual anchor of every streetwear silhouette. Explore our definitive sneaker styling guide to key footwear categories, essential buying considerations, and pant break pairing formulas.
             </p>
           </div>
         </div>
@@ -78,7 +78,7 @@ export const SneakerGuidePage: React.FC = () => {
                 Directory Matrix
               </span>
               <h2 className="text-2xl font-display font-bold text-white">
-                Sneaker Silhouette Anatomy & Curated Profiles
+                Sneaker Styling Guide: Silhouette Anatomy & Profiles
               </h2>
             </div>
             <span className="text-xs uppercase tracking-widest text-neutral-400 font-semibold block mb-3">
@@ -202,7 +202,7 @@ export const SneakerGuidePage: React.FC = () => {
               The Pant Break Equation
             </span>
             <h2 className="text-2xl sm:text-3xl font-display font-bold text-white">
-              Matching Pant Hems to Sneaker Collars
+              Sneaker Styling Guide: Matching Pant Hems to Collars
             </h2>
           </div>
 

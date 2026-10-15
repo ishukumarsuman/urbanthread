@@ -31,11 +31,11 @@ export const StreetwearTrendsPage: React.FC = () => {
 
             {/* Strict Unique H1 */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-extrabold text-white tracking-tight leading-tight">
-              Contemporary Streetwear Movements & Trend Forecasts
+              The Defining Streetwear Trends & Movement Forecasts
             </h1>
 
             <p className="text-base sm:text-lg text-neutral-300 leading-relaxed">
-              Streetwear has evolved beyond graphic tees and synthetic hype into a disciplined study of tailoring, functional materials, and proportion balance. Explore the 4 defining movements shaping modern urban wardrobes.
+              Modern streetwear trends have evolved beyond graphic tees and synthetic hype into a disciplined study of tailoring, functional materials, and proportion balance. Explore the 4 defining movements shaping contemporary urban wardrobes.
             </p>
           </div>
         </div>
@@ -115,7 +115,7 @@ export const StreetwearTrendsPage: React.FC = () => {
                 Curated Dossier
               </span>
               <h2 className="text-2xl font-display font-bold text-white">
-                Key Streetwear Movements & Silhouette Breakdown
+                Key Streetwear Trends & Silhouette Breakdown
               </h2>
             </div>
             {filteredTrends.map((trend, index) => (

@@ -29,11 +29,11 @@ export const HomePage: React.FC = () => {
 
               {/* Strict Unique H1 */}
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold tracking-tight text-white leading-[1.08] text-balance">
-                The Contemporary Streetwear & Style Journal
+                The Contemporary Streetwear Fashion & Style Journal
               </h1>
 
               <p className="text-base sm:text-lg text-neutral-300 max-w-xl font-normal leading-relaxed">
-                UrbanThread is an independent editorial platform dissecting modern streetwear culture, oversized tailoring, technical footwear, and mindful styling principles for the contemporary wardrobe.
+                UrbanThread is an independent editorial platform dissecting modern streetwear fashion culture, oversized tailoring, technical footwear, and mindful styling principles for the contemporary wardrobe.
               </p>
 
               <div className="pt-2 flex flex-wrap gap-4 items-center">
@@ -100,10 +100,10 @@ export const HomePage: React.FC = () => {
               Curatorial Thesis
             </span>
             <h2 className="text-2xl sm:text-3xl font-display font-bold text-white leading-snug">
-              Demystifying Streetwear for Students, Creatives, and Modern Minimalists
+              Demystifying Streetwear Fashion for Students, Creatives, and Minimalists
             </h2>
             <p className="mt-4 text-sm sm:text-base text-neutral-300 leading-relaxed">
-              Street fashion is often clouded by hyper-limited drops, algorithmic hype, and fast-fashion clones. UrbanThread approaches urban style through the lens of architectural proportions, enduring textiles, and accessible styling equations you can replicate every day.
+              Streetwear fashion is often clouded by hyper-limited drops, algorithmic hype, and fast-fashion clones. UrbanThread approaches urban style through the lens of architectural proportions, enduring textiles, and accessible styling equations you can replicate every day.
             </p>
           </div>
 
@@ -231,7 +231,7 @@ export const HomePage: React.FC = () => {
                 Lead Editorial Spotlight
               </span>
               <h2 className="text-2xl sm:text-3xl font-display font-bold text-white">
-                Trend Focus: The Evolution of Boxy Tailoring
+                Streetwear Fashion Spotlight: The Evolution of Boxy Tailoring
               </h2>
             </div>
             <Link
@@ -302,7 +302,7 @@ export const HomePage: React.FC = () => {
                 Curated Lookbooks
               </span>
               <h2 className="text-2xl sm:text-3xl font-display font-bold text-white">
-                Outfits Designed for Real Contexts
+                Streetwear Fashion Outfits Designed for Real Contexts
               </h2>
             </div>
             <Link

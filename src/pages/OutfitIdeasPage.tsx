@@ -38,11 +38,11 @@ export const OutfitIdeasPage: React.FC = () => {
 
             {/* Strict Unique H1 */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-extrabold text-white tracking-tight leading-tight">
-              Curated Streetwear Outfit Blueprints & Lookbooks
+              Curated Streetwear Outfit Ideas & Daily Lookbooks
             </h1>
 
             <p className="text-base sm:text-lg text-neutral-300 leading-relaxed">
-              Real outfits engineered for the physical demands of daily life. Inspect detailed layer-by-layer formulas tailored for college campus transit, weekend downtime, and elevated evening atmospheres.
+              Real outfits engineered for the physical demands of daily life. Inspect versatile streetwear outfit ideas and detailed layer-by-layer formulas tailored for college campus transit, weekend downtime, and elevated evening atmospheres.
             </p>
           </div>
         </div>
@@ -67,10 +67,10 @@ export const OutfitIdeasPage: React.FC = () => {
                 The Capsule Blueprint Philosophy
               </span>
               <h2 className="text-2xl font-display font-bold text-white">
-                Building Outfits with Purpose, Not Accumulation
+                Building Streetwear Outfit Ideas with Purpose, Not Accumulation
               </h2>
               <p className="text-sm text-neutral-300 leading-relaxed">
-                Rather than buying whole new outfits for every event, modern streetwear thrives on interchangeable building blocks: high-GSM base tees, neutral tailored trousers, and adaptable outer shells that effortlessly transition across college lectures and weekend outings.
+                Rather than buying whole new wardrobes for every event, sustainable streetwear outfit ideas thrive on interchangeable building blocks: high-GSM base tees, neutral tailored trousers, and adaptable outer shells that effortlessly transition across college lectures and weekend outings.
               </p>
               <div className="flex flex-wrap items-center gap-4 text-xs text-neutral-400 pt-2 border-t border-neutral-800">
                 <span>3 Core Scenarios Covered</span>

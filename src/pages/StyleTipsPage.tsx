@@ -61,11 +61,11 @@ export const StyleTipsPage: React.FC = () => {
 
             {/* Strict Unique H1 */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-extrabold text-white tracking-tight leading-tight">
-              The Core Fundamentals of Modern Streetwear Styling
+              Streetwear Styling Tips & Modern Wardrobe Fundamentals
             </h1>
 
             <p className="text-base sm:text-lg text-neutral-300 leading-relaxed">
-              Timeless style isn’t about chasing hype cycles or accumulating transient logos. It is a calculated science of silhouette geometry, fabric density stacking, disciplined neutral color theory, and understated finishing touches.
+              Essential streetwear styling tips aren’t about chasing hype cycles or accumulating transient logos. It is a calculated science of silhouette geometry, fabric density stacking, disciplined neutral color theory, and understated finishing touches.
             </p>
           </div>
         </div>
@@ -90,7 +90,7 @@ export const StyleTipsPage: React.FC = () => {
                 Pillar Architecture
               </span>
               <h2 className="text-2xl font-display font-bold text-white">
-                Texture Speaks When Logos Are Silent
+                Streetwear Styling Tips: Texture Speaks When Logos Are Silent
               </h2>
               <p className="text-sm text-neutral-300 leading-relaxed">
                 When an outfit uses restricted tones like bone, heather charcoal, and deep black, the visual tension comes from the battle between textiles: the raw rib of a fisherman sweater against the brushed drape of an unlined wool overcoat and cool brushed sterling silver jewelry.
